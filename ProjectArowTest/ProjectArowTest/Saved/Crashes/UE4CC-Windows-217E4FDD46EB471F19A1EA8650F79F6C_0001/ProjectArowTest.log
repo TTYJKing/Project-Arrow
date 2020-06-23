@@ -1,0 +1,1601 @@
+﻿Log file open, 06/22/20 16:19:38
+LogInit: Display: Running engine for game: ProjectArowTest
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 5.715251
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-13594126
+LogInit: Engine Version: 4.25.1-13594126+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-7300HQ CPU @ 2.50GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Jun  2 2020 02:10:36
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.06.22-23.19.39:827][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.22-23.19.39:827][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.22-23.19.39:827][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Engine.ini]
+[2020.06.22-23.19.39:827][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.22-23.19.39:827][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Engine.ini]
+[2020.06.22-23.19.39:827][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Engine.ini]
+[2020.06.22-23.19.39:827][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.22-23.19.39:827][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.22-23.19.39:827][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.22-23.19.39:827][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.22-23.19.39:827][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.22-23.19.39:827][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Engine.ini]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.22-23.19.39:828][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Engine.ini]
+[2020.06.22-23.19.39:828][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Engine.ini]
+[2020.06.22-23.19.39:832][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.22-23.19.39:832][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.22-23.19.39:833][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.22-23.19.39:833][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.22-23.19.39:833][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.22-23.19.39:834][  0]LogHAL: Display: Platform has ~ 8 GB [8416628736 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.22-23.19.39:835][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.22-23.19.39:835][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-23.19.39:835][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.22-23.19.39:835][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.22-23.19.39:835][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-23.19.39:835][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.22-23.19.39:835][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-23.19.39:835][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.22-23.19.39:835][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.22-23.19.39:836][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Scalability.ini]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.06.22-23.19.39:837][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.22-23.19.39:838][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.22-23.19.39:838][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.22-23.19.39:838][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.06.22-23.19.39:838][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Config/Windows/Engine.ini]
+[2020.06.22-23.19.39:838][  0]LogInit: Computer: LAPTOP-678G5A8S
+[2020.06.22-23.19.39:838][  0]LogInit: User: TTYJK
+[2020.06.22-23.19.39:839][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.06.22-23.19.39:839][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.22-23.19.39:839][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2020.06.22-23.19.39:839][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.22-23.19.39:839][  0]LogMemory: Process Physical Memory: 114.29 MB used, 114.30 MB peak
+[2020.06.22-23.19.39:839][  0]LogMemory: Process Virtual Memory: 103.73 MB used, 103.73 MB peak
+[2020.06.22-23.19.39:839][  0]LogMemory: Physical Memory: 4255.42 MB used,  3771.30 MB free, 8026.72 MB total
+[2020.06.22-23.19.39:839][  0]LogMemory: Virtual Memory: 5136.04 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.06.22-23.19.39:851][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.22-23.19.40:037][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.06.22-23.19.40:043][  0]LogInit: Using OS detected language (en-US).
+[2020.06.22-23.19.40:044][  0]LogInit: Using OS detected locale (en-US).
+[2020.06.22-23.19.40:071][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.06.22-23.19.40:524][  0]LogInit: Setting process to per monitor DPI aware
+[2020.06.22-23.19.40:624][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.22-23.19.40:624][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.22-23.19.41:359][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2020.06.22-23.19.41:359][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.06.22-23.19.41:359][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.06.22-23.19.41:359][  0]LogD3D11RHI: D3D11 adapters:
+[2020.06.22-23.19.41:814][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2020.06.22-23.19.41:814][  0]LogD3D11RHI:       4021/0/4013 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.06.22-23.19.41:826][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2020.06.22-23.19.41:826][  0]LogD3D11RHI:       128/0/4013 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.06.22-23.19.41:840][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.06.22-23.19.41:840][  0]LogD3D11RHI:       0/0/4013 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.06.22-23.19.41:840][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.06.22-23.19.41:935][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.06.22-23.19.41:935][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8d (for the marketing name, search the web for "GPU Device Id")
+[2020.06.22-23.19.41:935][  0]LogWindows: EnumDisplayDevices:
+[2020.06.22-23.19.41:935][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2020.06.22-23.19.41:936][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.06.22-23.19.41:936][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2020.06.22-23.19.41:937][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.06.22-23.19.41:937][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2020.06.22-23.19.41:937][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.06.22-23.19.41:937][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.06.22-23.19.41:937][  0]LogRHI: Texture pool is 2814 MB (70% of 4021 MB)
+[2020.06.22-23.19.41:996][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.06.22-23.19.42:001][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.06.22-23.19.42:001][  0]LogD3D11RHI: Async texture creation enabled
+[2020.06.22-23.19.42:001][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.06.22-23.19.42:039][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.06.22-23.19.42:669][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.06.22-23.19.42:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.06.22-23.19.42:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.06.22-23.19.42:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.06.22-23.19.42:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.06.22-23.19.42:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.06.22-23.19.42:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.22-23.19.42:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.06.22-23.19.42:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.22-23.19.42:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.06.22-23.19.42:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.06.22-23.19.42:777][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.06.22-23.19.42:777][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.06.22-23.19.42:814][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.06.22-23.19.42:927][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.22-23.19.43:048][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.06.22-23.19.43:068][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.06.22-23.19.43:089][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.06.22-23.19.43:114][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.06.22-23.19.43:146][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.06.22-23.19.43:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.06.22-23.19.43:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.06.22-23.19.43:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.06.22-23.19.43:266][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.06.22-23.19.43:390][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.22-23.19.43:426][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.06.22-23.19.43:491][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.06.22-23.19.43:521][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.06.22-23.19.43:521][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.22-23.19.43:574][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.22-23.19.44:356][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Intermediate/Shaders/WorkingDirectory/653184/).
+[2020.06.22-23.19.44:356][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/TTYJK/AppData/Local/Temp/UnrealShaderWorkingDir/87AAFE14445A55E60EAAC6B4D27A5F98/'.
+[2020.06.22-23.19.44:357][  0]LogXGEController: Cleaning working directory: C:/Users/TTYJK/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.06.22-23.19.44:357][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.22-23.19.44:357][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.22-23.19.44:358][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.22-23.19.45:760][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.22-23.19.46:010][  0]LogDerivedDataCache: Loaded boot cache 0.25s 75MB C:/Users/TTYJK/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.22-23.19.46:010][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/TTYJK/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.06.22-23.19.46:010][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.22-23.19.46:010][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.22-23.19.46:010][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.22-23.19.46:010][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.22-23.19.46:027][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.22-23.19.46:028][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.22-23.19.46:028][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.22-23.19.46:038][  0]LogDerivedDataCache: Using Local data cache path C:/Users/TTYJK/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.22-23.19.46:038][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.22-23.19.46:038][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.22-23.19.46:107][  0]LogSlate: Using FreeType 2.10.0
+[2020.06.22-23.19.46:112][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.22-23.19.46:220][  0]LogAssetRegistry: FAssetRegistry took 0.0155 seconds to start up
+[2020.06.22-23.19.46:653][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.22-23.19.47:425][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.22-23.19.47:425][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.22-23.19.47:425][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.22-23.19.47:425][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.22-23.19.47:425][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.22-23.19.47:475][  0]LogNetVersion: ProjectArowTest 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 233329470)
+[2020.06.22-23.19.48:881][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000027D2F3FB600), frame # 0
+[2020.06.22-23.19.48:881][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027D2F3DEAC0), frame # 0
+[2020.06.22-23.19.48:885][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027D2F4C1C00), frame # 0
+[2020.06.22-23.19.49:474][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.084872 seconds
+[2020.06.22-23.19.49:485][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.06.22-23.19.49:485][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.06.22-23.19.49:485][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.22-23.19.51:463][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.22-23.19.51:473][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.22-23.19.51:783][  0]SourceControl: Source control is disabled
+[2020.06.22-23.19.51:783][  0]SourceControl: Source control is disabled
+[2020.06.22-23.19.51:801][  0]SourceControl: Source control is disabled
+[2020.06.22-23.19.51:822][  0]SourceControl: Source control is disabled
+[2020.06.22-23.19.51:854][  0]SourceControl: Source control is disabled
+[2020.06.22-23.19.53:179][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.22-23.19.53:253][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.22-23.19.53:253][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.22-23.19.53:398][  0]LogOcInput: OculusInput pre-init called
+[2020.06.22-23.19.53:433][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.06.22-23.19.53:433][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.06.22-23.19.53:620][  0]LogEngine: Initializing Engine...
+[2020.06.22-23.19.54:064][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.06.22-23.19.54:064][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.06.22-23.19.54:066][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2020.06.22-23.19.54:332][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.22-23.19.54:368][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.22-23.19.54:368][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027D34C83C00), frame # 0
+[2020.06.22-23.19.54:368][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027D34CE4A40), frame # 0
+[2020.06.22-23.19.54:475][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.22-23.19.54:475][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.22-23.19.54:475][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.22-23.19.54:475][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.22-23.19.54:475][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.22-23.19.54:476][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.22-23.19.54:476][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.22-23.19.54:476][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.22-23.19.54:476][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.22-23.19.54:476][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.22-23.19.54:516][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.22-23.19.54:516][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.06.22-23.19.54:933][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.22-23.19.54:934][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.22-23.19.54:968][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.22-23.19.54:968][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.22-23.19.54:974][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.22-23.19.54:979][  0]LogInit: FAudioDevice initialized.
+[2020.06.22-23.19.54:980][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.22-23.19.55:098][  0]LogDerivedDataCache: Saved boot cache 0.12s 75MB C:/Users/TTYJK/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.06.22-23.19.55:100][  0]LogInit: Texture streaming: Enabled
+[2020.06.22-23.19.55:341][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.22-23.19.55:341][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.22-23.19.55:350][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.22-23.19.55:554][  0]LogInit: Transaction tracking system initialized
+[2020.06.22-23.19.55:643][  0]BlueprintLog: New page: Editor Load
+[2020.06.22-23.19.55:917][  0]LocalizationService: Localization service is disabled
+[2020.06.22-23.19.56:617][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.22-23.19.56:617][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.22-23.19.56:665][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Content/' took 0.12s
+[2020.06.22-23.19.57:968][  0]SourceControl: Source control is disabled
+[2020.06.22-23.19.57:968][  0]LogUnrealEdMisc: Loading editor; pre map load, took 30.303
+[2020.06.22-23.19.57:970][  0]Cmd: MAP LOAD FILE="../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.22-23.19.57:973][  0]LightingResults: New page: Lighting Build
+[2020.06.22-23.19.57:978][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-23.19.57:978][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-23.19.57:978][  0]MapCheck: New page: Map Check
+[2020.06.22-23.19.57:978][  0]LightingResults: New page: Lighting Build
+[2020.06.22-23.19.58:349][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027D34C83C00), frame # 0
+[2020.06.22-23.19.58:349][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027D34CE4A40), frame # 0
+[2020.06.22-23.19.58:350][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2020.06.22-23.19.59:035][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.06.22-23.19.59:035][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027D26CFE000), frame # 0
+[2020.06.22-23.19.59:035][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027D29BABC40), frame # 0
+[2020.06.22-23.19.59:077][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.22-23.20.00:480][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2020.06.22-23.20.00:480][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.22-23.20.00:481][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.421ms to complete.
+[2020.06.22-23.20.00:481][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.512
+[2020.06.22-23.20.00:486][  0]LogUnrealEdMisc: Total Editor Startup Time, took 32.821
+[2020.06.22-23.20.00:718][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-23.20.00:730][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-23.20.00:743][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-23.20.00:754][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-23.20.00:883][  0]LogCollectionManager: Loaded 0 collections in 0.002735 seconds
+[2020.06.22-23.20.00:913][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Collections/' took 0.00s
+[2020.06.22-23.20.00:914][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Content/Developers/TTYJK/Collections/' took 0.00s
+[2020.06.22-23.20.00:914][  0]LogFileCache: Scanning file cache for directory 'C:/Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Content/Collections/' took 0.00s
+[2020.06.22-23.20.00:914][  0]LogContentBrowser: Native class hierarchy populated in 0.0144 seconds. Added 3427 classes and 821 folders.
+[2020.06.22-23.20.00:928][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.06.22-23.20.01:224][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2020.06.22-23.20.01:226][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 2 classes and 0 folders.
+[2020.06.22-23.20.02:190][  0]LogSlate: Took 0.001038 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.22-23.20.02:197][  0]LogSlate: Took 0.003886 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.22-23.20.02:204][  0]LogSlate: Took 0.001040 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.22-23.20.02:335][  0]LogRenderer: Reallocating scene render targets to support 740x460 Format 10 NumSamples 1 (Frame:1).
+[2020.06.22-23.20.02:596][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.06.22-23.20.02:596][  0]LogLoad: (Engine Initialization) Total time: 34.93 seconds
+[2020.06.22-23.20.02:596][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.22-23.20.02:780][  0]LogAssetRegistry: Asset discovery search completed in 16.5717 seconds
+[2020.06.22-23.20.02:787][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+[2020.06.22-23.20.02:789][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.22-23.20.02:833][  0]LogSlate: Took 0.001288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.22-23.20.03:806][ 14]LogSlate: Took 0.001103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.22-23.20.09:018][113]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Geometry/Meshes/Bow.Bow
+[2020.06.22-23.20.09:031][113]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2020.06.22-23.20.09:354][113]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.22-23.20.09:356][113]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2020.06.22-23.20.09:453][113]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2020.06.22-23.20.09:777][113]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FPCChar.FPCChar
+[2020.06.22-23.20.10:061][113]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 125 classes and 0 folders.
+[2020.06.22-23.20.11:361][113]LogSlate: Took 0.002112 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.06.22-23.20.11:466][114]LogSlate: Took 0.001160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.06.22-23.25.56:874][979]BlueprintLog: New page: Compile FPCChar
+[2020.06.22-23.25.56:965][979]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2020.06.22-23.25.57:150][979]LogSlate: Took 0.002784 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.06.22-23.27.04:333][187]BlueprintLog: New page: Compile FPCChar
+[2020.06.22-23.27.04:425][187]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2020.06.22-23.27.13:650][333]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.22-23.27.13:671][333]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.22-23.27.13:684][333]PIE: New page: PIE session: FirstPersonExampleMap (Jun 22, 2020, 9:27:13 AM)
+[2020.06.22-23.27.13:686][333]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.06.22-23.27.13:687][333]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.06.22-23.27.13:687][333]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.06.22-23.27.13:716][333]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028353s)
+[2020.06.22-23.27.13:717][333]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2020.06.22-23.27.13:717][333]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027DA84F8E00), frame # 8333
+[2020.06.22-23.27.13:717][333]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027DAD22DBC0), frame # 8333
+[2020.06.22-23.27.13:718][333]LogPlayLevel: PIE: World Init took: (0.001613s)
+[2020.06.22-23.27.13:718][333]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.030201s)
+[2020.06.22-23.27.13:808][333]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.06.22-23.27.13:810][333]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.22-23.27.13:810][333]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.22-23.27.13:810][333]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.22-23.27.13:810][333]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.22-23.27.13:810][333]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.22-23.27.13:810][333]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.22-23.27.13:810][333]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.22-23.27.13:810][333]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.22-23.27.13:811][333]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.22-23.27.13:811][333]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.22-23.27.13:818][333]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.22-23.27.13:818][333]LogAudioMixer: Display: 1: FrontRight
+[2020.06.22-23.27.13:850][333]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.22-23.27.13:850][333]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.22-23.27.13:850][333]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.22-23.27.13:850][333]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.22-23.27.13:851][333]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.22-23.27.13:876][333]LogInit: FAudioDevice initialized.
+[2020.06.22-23.27.13:897][333]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.06.22-23.27.13:899][333]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2020.06.22-16.27.13
+[2020.06.22-23.27.13:900][333]LogWorld: Bringing up level for play took: 0.003098
+[2020.06.22-23.27.13:901][333]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.06.22-23.27.13:923][333]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2020.06.22-23.27.13:924][333]PIE: Server logged in
+[2020.06.22-23.27.13:925][333]PIE: Play in editor total start time 0.257 seconds.
+[2020.06.22-23.27.25:915][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-23.27.25:915][559]LogWorld: BeginTearingDown for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2020.06.22-23.27.25:915][559]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-23.27.25:916][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-23.27.25:984][559]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.22-23.27.25:991][559]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-23.27.26:023][559]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-23.27.26:057][559]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027DAD22DBC0), frame # 8559
+[2020.06.22-23.27.26:057][559]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027DA84F8E00), frame # 8559
+[2020.06.22-23.27.26:083][559]LogUObjectHash: Compacting FUObjectHashTables data took   4.34ms
+[2020.06.22-23.27.26:118][560]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.06.22-23.27.33:767][649]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Maps/TylerTest.TylerTest
+[2020.06.22-23.27.33:801][649]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2020.06.22-23.27.38:972][649]LogSlate: Window 'Save Content' being destroyed
+[2020.06.22-23.27.39:169][649]LogSavePackage: Moving '../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/FPCChar3C755EAC4161B2C79E06C1920053930D.tmp' to '../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Content/FirstPersonBP/Blueprints/FPCChar.uasset'
+[2020.06.22-23.27.39:173][649]Cmd: MAP LOAD FILE="../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Content/Maps/TylerTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.22-23.27.39:173][649]LightingResults: New page: Lighting Build
+[2020.06.22-23.27.39:173][649]LoadErrors: New page: Loading map: TylerTest.umap
+[2020.06.22-23.27.39:177][649]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-23.27.39:177][649]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-23.27.39:177][649]MapCheck: New page: Map Check
+[2020.06.22-23.27.39:177][649]LightingResults: New page: Lighting Build
+[2020.06.22-23.27.39:205][649]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027D26CFE000), frame # 8649
+[2020.06.22-23.27.39:206][649]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027D29BABC40), frame # 8649
+[2020.06.22-23.27.39:208][649]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2020.06.22-23.27.39:226][649]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.22-23.27.39:226][649]LogAIModule: Creating AISystem for world TylerTest
+[2020.06.22-23.27.39:227][649]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027D26CAE200), frame # 8649
+[2020.06.22-23.27.39:227][649]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027D26C3F9C0), frame # 8649
+[2020.06.22-23.27.39:258][649]LogUObjectHash: Compacting FUObjectHashTables data took   3.44ms
+[2020.06.22-23.27.39:281][649]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.22-23.27.39:281][649]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.181ms to complete.
+[2020.06.22-23.27.39:281][649]LogFileHelpers: Loading map 'TylerTest' took 0.108
+[2020.06.22-23.27.39:333][649]AssetCheck: New page: Asset Save: FPCChar
+[2020.06.22-23.27.39:333][649]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FPCChar.FPCChar
+[2020.06.22-23.27.43:698][698]LogSlate: Window 'Project Settings' being destroyed
+[2020.06.22-23.27.43:860][698]LogSlate: Window 'Project Settings' being destroyed
+[2020.06.22-23.33.27:975][665]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Bow/BP_Bow.BP_Bow
+[2020.06.22-23.36.07:866][398]BlueprintLog: New page: Compile FPCChar
+[2020.06.22-23.36.07:972][398]LogUObjectHash: Compacting FUObjectHashTables data took   4.57ms
+[2020.06.22-23.36.27:226][608]BlueprintLog: New page: Compile FPCChar
+[2020.06.22-23.36.27:334][608]LogUObjectHash: Compacting FUObjectHashTables data took   4.67ms
+[2020.06.22-23.37.34:094][497]LogUObjectHash: Compacting FUObjectHashTables data took   5.25ms
+[2020.06.22-23.37.34:096][497]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TylerTest' took 0.067
+[2020.06.22-23.37.34:097][497]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FPCChar] ([1] browsable assets)...
+[2020.06.22-23.37.34:166][497]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FPCChar.FPCChar]
+[2020.06.22-23.37.34:166][497]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FPCChar]
+[2020.06.22-23.37.34:269][497]LogSavePackage: Moving '../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/FPCChar_Auto15581C1D2486D6F048311AFAE8EB4A0EB.tmp' to '../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FPCChar_Auto1.uasset'
+[2020.06.22-23.37.34:272][497]LogFileHelpers: Auto-saving content packages took 0.175
+[2020.06.22-23.39.45:393][304]BlueprintLog: New page: Compile FPCChar
+[2020.06.22-23.39.45:498][304]LogUObjectHash: Compacting FUObjectHashTables data took   3.62ms
+[2020.06.22-23.39.51:997][373]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.22-23.39.52:016][373]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.22-23.39.52:016][373]PIE: New page: PIE session: TylerTest (Jun 22, 2020, 9:39:52 AM)
+[2020.06.22-23.39.52:016][373]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.22-23.39.52:019][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003263s)
+[2020.06.22-23.39.52:022][373]LogAIModule: Creating AISystem for world TylerTest
+[2020.06.22-23.39.52:022][373]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027D4954BE00), frame # 16373
+[2020.06.22-23.39.52:022][373]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027DBA9FF600), frame # 16373
+[2020.06.22-23.39.52:022][373]LogPlayLevel: PIE: World Init took: (0.002364s)
+[2020.06.22-23.39.52:022][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TylerTest.TylerTest to /Game/Maps/UEDPIE_0_TylerTest.TylerTest (0.005806s)
+[2020.06.22-23.39.52:068][373]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2020.06.22-23.39.52:070][373]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.22-23.39.52:070][373]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.22-23.39.52:070][373]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.22-23.39.52:070][373]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.22-23.39.52:070][373]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.22-23.39.52:070][373]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.22-23.39.52:070][373]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.22-23.39.52:070][373]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.22-23.39.52:072][373]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.22-23.39.52:073][373]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.22-23.39.52:083][373]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.22-23.39.52:083][373]LogAudioMixer: Display: 1: FrontRight
+[2020.06.22-23.39.52:133][373]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.22-23.39.52:133][373]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.22-23.39.52:133][373]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.22-23.39.52:133][373]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.22-23.39.52:133][373]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.22-23.39.52:154][373]LogInit: FAudioDevice initialized.
+[2020.06.22-23.39.52:167][373]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.06.22-23.39.52:168][373]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TylerTest.TylerTest up for play (max tick rate 0) at 2020.06.22-16.39.52
+[2020.06.22-23.39.52:169][373]LogWorld: Bringing up level for play took: 0.000943
+[2020.06.22-23.39.52:169][373]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2020.06.22-23.39.52:174][373]PIE: Server logged in
+[2020.06.22-23.39.52:175][373]PIE: Play in editor total start time 0.162 seconds.
+[2020.06.22-23.40.18:446][121]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-23.40.18:446][121]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.22-23.40.18:446][121]LogWorld: UWorld::CleanupWorld for TylerTest, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-23.40.18:446][121]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-23.40.18:489][121]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.22-23.40.18:497][121]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-23.40.18:556][121]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-23.40.18:557][121]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027DBA9FF600), frame # 17121
+[2020.06.22-23.40.18:557][121]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027D4954BE00), frame # 17121
+[2020.06.22-23.40.18:561][121]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2020.06.22-23.40.18:595][122]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2020.06.22-23.40.20:416][176]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2020.06.22-23.42.56:665][611]LogRenderer: Reallocating scene render targets to support 740x464 Format 10 NumSamples 1 (Frame:1).
+[2020.06.22-23.44.45:498][131]BlueprintLog: New page: Compile BP_Bow
+[2020.06.22-23.44.45:616][131]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2020.06.22-23.44.58:275][296]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.22-23.44.58:294][296]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.22-23.44.58:294][296]PIE: New page: PIE session: TylerTest (Jun 22, 2020, 9:44:58 AM)
+[2020.06.22-23.44.58:294][296]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.22-23.44.58:297][296]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003139s)
+[2020.06.22-23.44.58:298][296]LogAIModule: Creating AISystem for world TylerTest
+[2020.06.22-23.44.58:298][296]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027DACA58600), frame # 22296
+[2020.06.22-23.44.58:299][296]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027D29C0D080), frame # 22296
+[2020.06.22-23.44.58:299][296]LogPlayLevel: PIE: World Init took: (0.001658s)
+[2020.06.22-23.44.58:299][296]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TylerTest.TylerTest to /Game/Maps/UEDPIE_0_TylerTest.TylerTest (0.004970s)
+[2020.06.22-23.44.58:341][296]LogUObjectHash: Compacting FUObjectHashTables data took   4.53ms
+[2020.06.22-23.44.58:343][296]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.22-23.44.58:343][296]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.22-23.44.58:344][296]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.22-23.44.58:344][296]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.22-23.44.58:344][296]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.22-23.44.58:344][296]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.22-23.44.58:344][296]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.22-23.44.58:344][296]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.22-23.44.58:344][296]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.22-23.44.58:344][296]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.22-23.44.58:352][296]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.22-23.44.58:352][296]LogAudioMixer: Display: 1: FrontRight
+[2020.06.22-23.44.58:384][296]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.22-23.44.58:384][296]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.22-23.44.58:384][296]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.22-23.44.58:384][296]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.22-23.44.58:384][296]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.22-23.44.58:404][296]LogInit: FAudioDevice initialized.
+[2020.06.22-23.44.58:415][296]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.06.22-23.44.58:417][296]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TylerTest.TylerTest up for play (max tick rate 60) at 2020.06.22-16.44.58
+[2020.06.22-23.44.58:417][296]LogWorld: Bringing up level for play took: 0.001701
+[2020.06.22-23.44.58:417][296]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.06.22-23.44.58:422][296]PIE: Server logged in
+[2020.06.22-23.44.58:423][296]PIE: Play in editor total start time 0.133 seconds.
+[2020.06.22-23.45.35:185][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-23.45.35:185][841]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.22-23.45.35:185][841]LogWorld: UWorld::CleanupWorld for TylerTest, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-23.45.35:186][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-23.45.35:302][841]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.22-23.45.35:310][841]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-23.45.35:386][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.22-23.45.35:387][841]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027D29C0D080), frame # 22841
+[2020.06.22-23.45.35:387][841]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027DACA58600), frame # 22841
+[2020.06.22-23.45.35:391][841]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2020.06.22-23.45.35:433][842]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.06.22-23.45.53:961][104]Cmd: TRANSACTION UNDO
+[2020.06.22-23.45.53:961][104]LogEditorTransaction: Undo Translate Socket
+[2020.06.22-23.45.54:071][104]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.22-23.48.38:600][507]LogUObjectHash: Compacting FUObjectHashTables data took   5.12ms
+[2020.06.22-23.48.38:602][507]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TylerTest' took 0.047
+[2020.06.22-23.48.38:603][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FPCChar] ([1] browsable assets)...
+[2020.06.22-23.48.38:697][507]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FPCChar.FPCChar]
+[2020.06.22-23.48.38:697][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FPCChar]
+[2020.06.22-23.48.38:804][507]LogSavePackage: Moving '../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/FPCChar_Auto210646AE04A9993C5F40780B57A8BD295.tmp' to '../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FPCChar_Auto2.uasset'
+[2020.06.22-23.48.38:807][507]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Bow/BP_Bow] ([1] browsable assets)...
+[2020.06.22-23.48.38:844][507]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Bow/BP_Bow.BP_Bow]
+[2020.06.22-23.48.38:844][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Bow/BP_Bow]
+[2020.06.22-23.48.38:877][507]LogSavePackage: Moving '../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/BP_Bow_Auto2E446A17344B405CD42188EAD5665A2CF.tmp' to '../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Autosaves/Game/Blueprints/Bow/BP_Bow_Auto2.uasset'
+[2020.06.22-23.48.38:883][507]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Geometry/Meshes/Bow_Skeleton] ([1] browsable assets)...
+[2020.06.22-23.48.38:883][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Bow_Skeleton]
+[2020.06.22-23.48.38:900][507]LogSavePackage: Moving '../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Bow_Skeleton_Auto2C474613D495ED5870B8F3192C5A7153C.tmp' to '../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Autosaves/Game/Geometry/Meshes/Bow_Skeleton_Auto2.uasset'
+[2020.06.22-23.48.38:901][507]LogFileHelpers: Auto-saving content packages took 0.299
+[2020.06.22-23.55.12:629][238]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Geometry/Meshes/Arrow.Arrow
+[2020.06.22-23.55.12:892][238]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.06.22-23.55.12:892][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.22-23.55.13:542][239]LogRenderer: Reallocating scene render targets to support 816x500 Format 10 NumSamples 1 (Frame:1).
+[2020.06.23-00.00.38:849][182]BlueprintLog: New page: Compile FPCChar
+[2020.06.23-00.00.39:039][182]LogUObjectHash: Compacting FUObjectHashTables data took   6.42ms
+[2020.06.23-00.01.31:062][182]BlueprintLog: New page: Compile FPCChar
+[2020.06.23-00.01.31:200][182]LogUObjectHash: Compacting FUObjectHashTables data took   6.34ms
+[2020.06.23-00.02.17:037][934]BlueprintLog: New page: Compile FPCChar
+[2020.06.23-00.02.17:155][934]LogUObjectHash: Compacting FUObjectHashTables data took   6.69ms
+[2020.06.23-00.03.02:513][630]BlueprintLog: New page: Compile FPCChar
+[2020.06.23-00.03.02:647][630]LogUObjectHash: Compacting FUObjectHashTables data took   6.50ms
+[2020.06.23-00.03.28:269][ 25]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.23-00.03.28:290][ 25]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.23-00.03.28:290][ 25]PIE: New page: PIE session: TylerTest (Jun 22, 2020, 10:03:28 AM)
+[2020.06.23-00.03.28:290][ 25]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.23-00.03.28:294][ 25]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003532s)
+[2020.06.23-00.03.28:296][ 25]LogAIModule: Creating AISystem for world TylerTest
+[2020.06.23-00.03.28:296][ 25]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027DCA3C2000), frame # 43025
+[2020.06.23-00.03.28:296][ 25]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027DBAC2C180), frame # 43025
+[2020.06.23-00.03.28:296][ 25]LogPlayLevel: PIE: World Init took: (0.002214s)
+[2020.06.23-00.03.28:296][ 25]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TylerTest.TylerTest to /Game/Maps/UEDPIE_0_TylerTest.TylerTest (0.005954s)
+[2020.06.23-00.03.28:350][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   5.30ms
+[2020.06.23-00.03.28:354][ 25]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.23-00.03.28:354][ 25]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.23-00.03.28:354][ 25]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.23-00.03.28:354][ 25]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.23-00.03.28:354][ 25]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.23-00.03.28:354][ 25]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.23-00.03.28:354][ 25]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.23-00.03.28:354][ 25]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.23-00.03.28:355][ 25]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.23-00.03.28:355][ 25]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.23-00.03.28:365][ 25]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.23-00.03.28:365][ 25]LogAudioMixer: Display: 1: FrontRight
+[2020.06.23-00.03.28:401][ 25]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.23-00.03.28:401][ 25]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.23-00.03.28:401][ 25]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.23-00.03.28:402][ 25]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.23-00.03.28:402][ 25]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.23-00.03.28:419][ 25]LogInit: FAudioDevice initialized.
+[2020.06.23-00.03.28:430][ 25]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.06.23-00.03.28:431][ 25]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TylerTest.TylerTest up for play (max tick rate 0) at 2020.06.22-17.03.28
+[2020.06.23-00.03.28:432][ 25]LogWorld: Bringing up level for play took: 0.000871
+[2020.06.23-00.03.28:432][ 25]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.06.23-00.03.28:438][ 25]PIE: Server logged in
+[2020.06.23-00.03.28:438][ 25]PIE: Play in editor total start time 0.151 seconds.
+[2020.06.23-00.04.02:126][989]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-00.04.02:126][989]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.23-00.04.02:126][989]LogWorld: UWorld::CleanupWorld for TylerTest, bSessionEnded=true, bCleanupResources=true
+[2020.06.23-00.04.02:127][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-00.04.02:136][989]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.23-00.04.02:143][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-00.04.02:214][989]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-00.04.02:215][989]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027DBAC2C180), frame # 44989
+[2020.06.23-00.04.02:215][989]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027DCA3C2000), frame # 44989
+[2020.06.23-00.04.02:219][989]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2020.06.23-00.04.02:252][990]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2020.06.23-00.07.02:595][198]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2020.06.23-00.10.00:641][716]LogEditorTransaction: Undo Delete current selection
+[2020.06.23-00.10.00:877][716]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2020.06.23-00.10.03:471][800]BlueprintLog: New page: Compile BP_Bow
+[2020.06.23-00.10.03:623][800]LogUObjectHash: Compacting FUObjectHashTables data took   6.80ms
+[2020.06.23-00.10.36:551][196]LogUObjectHash: Compacting FUObjectHashTables data took   6.36ms
+[2020.06.23-00.10.36:554][196]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TylerTest' took 0.061
+[2020.06.23-00.10.36:555][196]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FPCChar] ([1] browsable assets)...
+[2020.06.23-00.10.36:590][196]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FPCChar.FPCChar]
+[2020.06.23-00.10.36:590][196]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FPCChar]
+[2020.06.23-00.10.36:736][196]LogSavePackage: Moving '../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/FPCChar_Auto3E024862E49B61D25DB3563BB81DD5984.tmp' to '../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FPCChar_Auto3.uasset'
+[2020.06.23-00.10.36:739][196]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Bow/BP_Bow] ([1] browsable assets)...
+[2020.06.23-00.10.36:775][196]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Bow/BP_Bow.BP_Bow]
+[2020.06.23-00.10.36:775][196]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Bow/BP_Bow]
+[2020.06.23-00.10.36:828][196]LogSavePackage: Moving '../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/BP_Bow_Auto3ABEC1D7F4F46A114DE0BD39592AB47B6.tmp' to '../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Autosaves/Game/Blueprints/Bow/BP_Bow_Auto3.uasset'
+[2020.06.23-00.10.36:831][196]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Geometry/Meshes/Bow_Skeleton] ([1] browsable assets)...
+[2020.06.23-00.10.36:831][196]OBJ SavePackage: Finished generating thumbnails for package [/Game/Geometry/Meshes/Bow_Skeleton]
+[2020.06.23-00.10.36:851][196]LogSavePackage: Moving '../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Bow_Skeleton_Auto37F766F5F40AF95F24DF6DFB6B20E8195.tmp' to '../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Autosaves/Game/Geometry/Meshes/Bow_Skeleton_Auto3.uasset'
+[2020.06.23-00.10.36:853][196]LogFileHelpers: Auto-saving content packages took 0.299
+[2020.06.23-00.18.37:104][901]BlueprintLog: New page: Compile FPCChar
+[2020.06.23-00.18.37:267][901]LogUObjectHash: Compacting FUObjectHashTables data took   6.23ms
+[2020.06.23-00.18.58:729][665]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2020.06.23-00.19.53:622][825]BlueprintLog: New page: Compile FPCChar
+[2020.06.23-00.19.53:755][825]LogUObjectHash: Compacting FUObjectHashTables data took   6.11ms
+[2020.06.23-00.20.24:275][ 24]BlueprintLog: New page: Compile FPCChar
+[2020.06.23-00.20.24:409][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   6.52ms
+[2020.06.23-00.20.48:007][919]BlueprintLog: New page: Compile FPCChar
+[2020.06.23-00.20.48:153][919]LogUObjectHash: Compacting FUObjectHashTables data took   6.43ms
+[2020.06.23-00.21.21:493][196]BlueprintLog: New page: Compile FPCChar
+[2020.06.23-00.21.21:633][196]LogUObjectHash: Compacting FUObjectHashTables data took   7.71ms
+[2020.06.23-00.21.33:321][622]BlueprintLog: New page: Compile FPCChar
+[2020.06.23-00.21.33:443][622]LogUObjectHash: Compacting FUObjectHashTables data took   5.61ms
+[2020.06.23-00.22.23:876][372]LogUObjectHash: Compacting FUObjectHashTables data took   5.91ms
+[2020.06.23-00.22.23:879][372]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TylerTest' took 0.068
+[2020.06.23-00.22.23:879][372]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FPCChar] ([1] browsable assets)...
+[2020.06.23-00.22.23:916][372]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FPCChar.FPCChar]
+[2020.06.23-00.22.23:916][372]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FPCChar]
+[2020.06.23-00.22.24:018][372]LogSavePackage: Moving '../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/FPCChar_Auto42E6AF6724AA95D5BCE0300B5958367DE.tmp' to '../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FPCChar_Auto4.uasset'
+[2020.06.23-00.22.24:021][372]LogFileHelpers: Auto-saving content packages took 0.143
+[2020.06.23-00.22.56:666][515]BlueprintLog: New page: Compile FPCChar
+[2020.06.23-00.22.56:795][515]LogUObjectHash: Compacting FUObjectHashTables data took   4.75ms
+[2020.06.23-00.23.21:445][469]BlueprintLog: New page: Compile FPCChar
+[2020.06.23-00.23.21:568][469]LogUObjectHash: Compacting FUObjectHashTables data took   6.76ms
+[2020.06.23-00.23.45:535][363]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2020.06.23-00.23.50:259][570]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.23-00.23.50:280][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.23-00.23.50:280][570]PIE: New page: PIE session: TylerTest (Jun 22, 2020, 10:23:50 AM)
+[2020.06.23-00.23.50:280][570]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.23-00.23.50:284][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003884s)
+[2020.06.23-00.23.50:286][570]LogAIModule: Creating AISystem for world TylerTest
+[2020.06.23-00.23.50:286][570]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027DCD498800), frame # 86570
+[2020.06.23-00.23.50:286][570]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027D4C9FB100), frame # 86570
+[2020.06.23-00.23.50:287][570]LogPlayLevel: PIE: World Init took: (0.002072s)
+[2020.06.23-00.23.50:287][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TylerTest.TylerTest to /Game/Maps/UEDPIE_0_TylerTest.TylerTest (0.006180s)
+[2020.06.23-00.23.50:338][570]LogUObjectHash: Compacting FUObjectHashTables data took   5.84ms
+[2020.06.23-00.23.50:343][570]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.23-00.23.50:343][570]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.23-00.23.50:343][570]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.23-00.23.50:343][570]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.23-00.23.50:343][570]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.23-00.23.50:343][570]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.23-00.23.50:343][570]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.23-00.23.50:343][570]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.23-00.23.50:344][570]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.23-00.23.50:344][570]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.23-00.23.50:353][570]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.23-00.23.50:353][570]LogAudioMixer: Display: 1: FrontRight
+[2020.06.23-00.23.50:402][570]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.23-00.23.50:403][570]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.23-00.23.50:403][570]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.23-00.23.50:403][570]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.23-00.23.50:403][570]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.23-00.23.50:426][570]LogInit: FAudioDevice initialized.
+[2020.06.23-00.23.50:435][570]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.06.23-00.23.50:437][570]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TylerTest.TylerTest up for play (max tick rate 60) at 2020.06.22-17.23.50
+[2020.06.23-00.23.50:437][570]LogWorld: Bringing up level for play took: 0.000939
+[2020.06.23-00.23.50:437][570]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2020.06.23-00.23.50:443][570]PIE: Server logged in
+[2020.06.23-00.23.50:444][570]PIE: Play in editor total start time 0.168 seconds.
+[2020.06.23-00.23.51:538][617]LogCharacterMovement: FPCChar_C_0 is stuck and failed to move! Velocity: X=69.77 Y=16.84 Z=0.00 Location: X=-2.29 Y=-0.67 Z=116.59 Normal: X=-0.78 Y=-0.23 Z=-0.58 PenetrationDepth:25.580 Actor:BP_Arrow_C_0 Component:ArrowMesh BoneName:None (0 other events since notify)
+[2020.06.23-00.23.53:249][710]LogCharacterMovement: FPCChar_C_0 is stuck and failed to move! Velocity: X=172.93 Y=-4.64 Z=0.00 Location: X=-636.07 Y=51.27 Z=116.03 Normal: X=-1.00 Y=0.03 Z=-0.06 PenetrationDepth:3.663 Actor:BP_Arrow_C_0 Component:ArrowMesh BoneName:None (23 other events since notify)
+[2020.06.23-00.23.54:247][766]LogCharacterMovement: FPCChar_C_0 is stuck and failed to move! Velocity: X=316.07 Y=-5.32 Z=0.00 Location: X=-636.66 Y=50.83 Z=116.02 Normal: X=-0.99 Y=0.03 Z=-0.12 PenetrationDepth:36.380 Actor:BP_Arrow_C_0 Component:ArrowMesh BoneName:None (26 other events since notify)
+[2020.06.23-00.23.58:856][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-00.23.58:856][  9]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.23-00.23.58:856][  9]LogWorld: UWorld::CleanupWorld for TylerTest, bSessionEnded=true, bCleanupResources=true
+[2020.06.23-00.23.58:857][  9]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-00.23.58:867][  9]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.23-00.23.58:875][  9]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-00.23.58:921][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-00.23.58:953][  9]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027D4C9FB100), frame # 87009
+[2020.06.23-00.23.58:953][  9]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027DCD498800), frame # 87009
+[2020.06.23-00.23.58:958][  9]LogUObjectHash: Compacting FUObjectHashTables data took   4.51ms
+[2020.06.23-00.23.58:999][ 10]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2020.06.23-00.24.01:258][106]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.23-00.24.01:281][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.23-00.24.01:281][106]PIE: New page: PIE session: TylerTest (Jun 22, 2020, 10:24:01 AM)
+[2020.06.23-00.24.01:281][106]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.23-00.24.01:284][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003089s)
+[2020.06.23-00.24.01:285][106]LogAIModule: Creating AISystem for world TylerTest
+[2020.06.23-00.24.01:285][106]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027DCE762000), frame # 87106
+[2020.06.23-00.24.01:286][106]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027D4DDC5D00), frame # 87106
+[2020.06.23-00.24.01:286][106]LogPlayLevel: PIE: World Init took: (0.001757s)
+[2020.06.23-00.24.01:286][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TylerTest.TylerTest to /Game/Maps/UEDPIE_0_TylerTest.TylerTest (0.005012s)
+[2020.06.23-00.24.01:340][106]LogUObjectHash: Compacting FUObjectHashTables data took   5.26ms
+[2020.06.23-00.24.01:342][106]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.23-00.24.01:342][106]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.23-00.24.01:342][106]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.23-00.24.01:343][106]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.23-00.24.01:343][106]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.23-00.24.01:343][106]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.23-00.24.01:343][106]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.23-00.24.01:343][106]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.23-00.24.01:343][106]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.23-00.24.01:343][106]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.23-00.24.01:349][106]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.23-00.24.01:349][106]LogAudioMixer: Display: 1: FrontRight
+[2020.06.23-00.24.01:389][106]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.23-00.24.01:389][106]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.23-00.24.01:389][106]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.23-00.24.01:389][106]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.23-00.24.01:390][106]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.23-00.24.01:408][106]LogInit: FAudioDevice initialized.
+[2020.06.23-00.24.01:419][106]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.06.23-00.24.01:420][106]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TylerTest.TylerTest up for play (max tick rate 60) at 2020.06.22-17.24.01
+[2020.06.23-00.24.01:420][106]LogWorld: Bringing up level for play took: 0.000874
+[2020.06.23-00.24.01:421][106]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2020.06.23-00.24.01:426][106]PIE: Server logged in
+[2020.06.23-00.24.01:427][106]PIE: Play in editor total start time 0.151 seconds.
+[2020.06.23-00.24.07:486][448]LogCharacterMovement: FPCChar_C_0 is stuck and failed to move! Velocity: X=-8.19 Y=67.78 Z=0.00 Location: X=-770.05 Y=-73.60 Z=116.07 Normal: X=-0.98 Y=-0.12 Z=-0.13 PenetrationDepth:36.308 Actor:BP_Arrow_C_0 Component:ArrowMesh BoneName:None (0 other events since notify)
+[2020.06.23-00.24.08:494][508]LogCharacterMovement: FPCChar_C_0 is stuck and failed to move! Velocity: X=30.72 Y=-254.33 Z=0.00 Location: X=-809.68 Y=254.56 Z=116.07 Normal: X=-0.98 Y=-0.12 Z=-0.13 PenetrationDepth:36.308 Actor:BP_Arrow_C_0 Component:ArrowMesh BoneName:None (26 other events since notify)
+[2020.06.23-00.24.09:501][568]LogCharacterMovement: FPCChar_C_0 is stuck and failed to move! Velocity: X=136.16 Y=6.19 Z=0.00 Location: X=-788.60 Y=80.57 Z=116.07 Normal: X=-0.97 Y=0.09 Z=-0.23 PenetrationDepth:35.189 Actor:BP_Arrow_C_0 Component:ArrowMesh BoneName:None (31 other events since notify)
+[2020.06.23-00.24.10:508][628]LogCharacterMovement: FPCChar_C_0 is stuck and failed to move! Velocity: X=331.54 Y=-88.61 Z=0.00 Location: X=-788.53 Y=80.81 Z=116.07 Normal: X=-0.82 Y=0.29 Z=-0.50 PenetrationDepth:30.593 Actor:BP_Arrow_C_0 Component:ArrowMesh BoneName:None (26 other events since notify)
+[2020.06.23-00.24.12:416][742]LogCharacterMovement: FPCChar_C_0 is stuck and failed to move! Velocity: X=10.88 Y=-32.35 Z=0.00 Location: X=-970.12 Y=1029.72 Z=116.17 Normal: X=-0.31 Y=0.93 Z=-0.18 PenetrationDepth:35.727 Actor:BP_Arrow_C_0 Component:ArrowMesh BoneName:None (26 other events since notify)
+[2020.06.23-00.24.13:440][803]LogCharacterMovement: FPCChar_C_0 is stuck and failed to move! Velocity: X=15.40 Y=-30.46 Z=0.00 Location: X=-1025.84 Y=1141.20 Z=116.05 Normal: X=-0.45 Y=0.88 Z=-0.14 PenetrationDepth:36.174 Actor:BP_Arrow_C_0 Component:ArrowMesh BoneName:None (3 other events since notify)
+[2020.06.23-00.24.14:467][863]LogCharacterMovement: FPCChar_C_0 is stuck and failed to move! Velocity: X=17.04 Y=-33.69 Z=0.00 Location: X=-1025.84 Y=1141.20 Z=116.05 Normal: X=-0.45 Y=0.88 Z=-0.14 PenetrationDepth:36.174 Actor:BP_Arrow_C_0 Component:ArrowMesh BoneName:None (1 other events since notify)
+[2020.06.23-00.24.15:495][924]LogCharacterMovement: FPCChar_C_0 is stuck and failed to move! Velocity: X=89.18 Y=-221.00 Z=0.00 Location: X=-1024.34 Y=1141.92 Z=116.04 Normal: X=-0.27 Y=0.96 Z=-0.09 PenetrationDepth:36.682 Actor:BP_Arrow_C_0 Component:ArrowMesh BoneName:None (43 other events since notify)
+[2020.06.23-00.24.17:554][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-00.24.17:555][ 44]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.23-00.24.17:555][ 44]LogWorld: UWorld::CleanupWorld for TylerTest, bSessionEnded=true, bCleanupResources=true
+[2020.06.23-00.24.17:555][ 44]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-00.24.17:566][ 44]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.23-00.24.17:574][ 44]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-00.24.17:652][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-00.24.17:654][ 44]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027D4DDC5D00), frame # 88044
+[2020.06.23-00.24.17:654][ 44]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027DCE762000), frame # 88044
+[2020.06.23-00.24.17:659][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   4.97ms
+[2020.06.23-00.24.17:702][ 45]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2020.06.23-00.26.45:133][434]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2020.06.23-00.27.11:255][349]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.06.23-00.27.11:255][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-00.29.05:691][829]LogSavePackage: Moving '../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Saved/FPCChar1C9AD706405C2D112CEBC18A1D1BAF48.tmp' to '../../../../../../Users/TTYJK/Desktop/Project-Arrow/ProjectArowTest/ProjectArowTest/Content/FirstPersonBP/Blueprints/FPCChar.uasset'
+[2020.06.23-00.29.05:725][829]AssetCheck: New page: Asset Save: FPCChar
+[2020.06.23-00.29.05:725][829]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FPCChar.FPCChar
+[2020.06.23-00.29.09:518][961]BlueprintLog: New page: Compile FPCChar
+[2020.06.23-00.29.09:667][961]LogUObjectHash: Compacting FUObjectHashTables data took   5.43ms
+[2020.06.23-00.29.12:367][ 64]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.23-00.29.12:387][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.23-00.29.12:388][ 64]PIE: New page: PIE session: TylerTest (Jun 22, 2020, 10:29:12 AM)
+[2020.06.23-00.29.12:388][ 64]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.23-00.29.12:392][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003671s)
+[2020.06.23-00.29.12:393][ 64]LogAIModule: Creating AISystem for world TylerTest
+[2020.06.23-00.29.12:393][ 64]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027D4A139A00), frame # 96064
+[2020.06.23-00.29.12:393][ 64]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027DA78C4180), frame # 96064
+[2020.06.23-00.29.12:394][ 64]LogPlayLevel: PIE: World Init took: (0.001902s)
+[2020.06.23-00.29.12:394][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TylerTest.TylerTest to /Game/Maps/UEDPIE_0_TylerTest.TylerTest (0.005754s)
+[2020.06.23-00.29.12:448][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   7.29ms
+[2020.06.23-00.29.12:451][ 64]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.23-00.29.12:451][ 64]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.23-00.29.12:451][ 64]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.23-00.29.12:451][ 64]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.23-00.29.12:451][ 64]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.23-00.29.12:451][ 64]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.23-00.29.12:451][ 64]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.23-00.29.12:451][ 64]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.23-00.29.12:452][ 64]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.23-00.29.12:452][ 64]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.23-00.29.12:461][ 64]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.23-00.29.12:461][ 64]LogAudioMixer: Display: 1: FrontRight
+[2020.06.23-00.29.12:503][ 64]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.23-00.29.12:504][ 64]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.23-00.29.12:504][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.23-00.29.12:504][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.23-00.29.12:504][ 64]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.23-00.29.12:527][ 64]LogInit: FAudioDevice initialized.
+[2020.06.23-00.29.12:537][ 64]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.06.23-00.29.12:539][ 64]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TylerTest.TylerTest up for play (max tick rate 60) at 2020.06.22-17.29.12
+[2020.06.23-00.29.12:539][ 64]LogWorld: Bringing up level for play took: 0.000802
+[2020.06.23-00.29.12:539][ 64]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2020.06.23-00.29.12:547][ 64]PIE: Server logged in
+[2020.06.23-00.29.12:548][ 64]PIE: Play in editor total start time 0.164 seconds.
+[2020.06.23-00.29.20:744][454]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-00.29.20:744][454]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.23-00.29.20:744][454]LogWorld: UWorld::CleanupWorld for TylerTest, bSessionEnded=true, bCleanupResources=true
+[2020.06.23-00.29.20:745][454]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-00.29.20:756][454]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.23-00.29.20:763][454]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-00.29.20:828][454]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-00.29.20:829][454]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027DA78C4180), frame # 96454
+[2020.06.23-00.29.20:829][454]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027D4A139A00), frame # 96454
+[2020.06.23-00.29.20:834][454]LogUObjectHash: Compacting FUObjectHashTables data took   4.52ms
+[2020.06.23-00.29.20:869][455]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2020.06.23-00.29.43:104][344]BlueprintLog: New page: Compile FPCChar
+[2020.06.23-00.29.43:222][344]LogUObjectHash: Compacting FUObjectHashTables data took   4.44ms
+[2020.06.23-00.29.47:929][528]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.23-00.29.47:951][528]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.23-00.29.47:951][528]PIE: New page: PIE session: TylerTest (Jun 22, 2020, 10:29:47 AM)
+[2020.06.23-00.29.47:952][528]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.23-00.29.47:956][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004335s)
+[2020.06.23-00.29.47:957][528]LogAIModule: Creating AISystem for world TylerTest
+[2020.06.23-00.29.47:958][528]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027DBEC4FC00), frame # 97528
+[2020.06.23-00.29.47:958][528]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027D4ACA3240), frame # 97528
+[2020.06.23-00.29.47:958][528]LogPlayLevel: PIE: World Init took: (0.001945s)
+[2020.06.23-00.29.47:958][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TylerTest.TylerTest to /Game/Maps/UEDPIE_0_TylerTest.TylerTest (0.006522s)
+[2020.06.23-00.29.48:017][528]LogUObjectHash: Compacting FUObjectHashTables data took   6.59ms
+[2020.06.23-00.29.48:019][528]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.23-00.29.48:020][528]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.23-00.29.48:020][528]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.23-00.29.48:020][528]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.23-00.29.48:020][528]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.23-00.29.48:020][528]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.23-00.29.48:020][528]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.23-00.29.48:020][528]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.23-00.29.48:020][528]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.23-00.29.48:020][528]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.23-00.29.48:030][528]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.23-00.29.48:030][528]LogAudioMixer: Display: 1: FrontRight
+[2020.06.23-00.29.48:071][528]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.23-00.29.48:071][528]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.23-00.29.48:071][528]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.23-00.29.48:071][528]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.23-00.29.48:072][528]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.23-00.29.48:092][528]LogInit: FAudioDevice initialized.
+[2020.06.23-00.29.48:106][528]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.06.23-00.29.48:108][528]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TylerTest.TylerTest up for play (max tick rate 60) at 2020.06.22-17.29.48
+[2020.06.23-00.29.48:108][528]LogWorld: Bringing up level for play took: 0.001119
+[2020.06.23-00.29.48:108][528]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2020.06.23-00.29.48:114][528]PIE: Server logged in
+[2020.06.23-00.29.48:115][528]PIE: Play in editor total start time 0.167 seconds.
+[2020.06.23-00.30.03:015][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-00.30.03:015][324]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.23-00.30.03:015][324]LogWorld: UWorld::CleanupWorld for TylerTest, bSessionEnded=true, bCleanupResources=true
+[2020.06.23-00.30.03:015][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-00.30.03:029][324]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.23-00.30.03:038][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-00.30.03:082][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-00.30.03:107][324]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027D4ACA3240), frame # 98324
+[2020.06.23-00.30.03:107][324]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027DBEC4FC00), frame # 98324
+[2020.06.23-00.30.03:113][324]LogUObjectHash: Compacting FUObjectHashTables data took   5.72ms
+[2020.06.23-00.30.03:151][325]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2020.06.23-00.34.19:598][820]BlueprintLog: New page: Compile FPCChar
+[2020.06.23-00.34.19:781][820]LogUObjectHash: Compacting FUObjectHashTables data took  10.17ms
+[2020.06.23-00.35.54:524][648]BlueprintLog: New page: Compile FPCChar
+[2020.06.23-00.35.54:653][648]LogUObjectHash: Compacting FUObjectHashTables data took   6.82ms
+[2020.06.23-00.36.11:854][344]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.23-00.36.11:874][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.23-00.36.11:875][344]PIE: New page: PIE session: TylerTest (Jun 22, 2020, 10:36:11 AM)
+[2020.06.23-00.36.11:875][344]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.23-00.36.11:879][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003997s)
+[2020.06.23-00.36.11:881][344]LogAIModule: Creating AISystem for world TylerTest
+[2020.06.23-00.36.11:881][344]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E0BE51200), frame # 113344
+[2020.06.23-00.36.11:881][344]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E08EE3240), frame # 113344
+[2020.06.23-00.36.11:881][344]LogPlayLevel: PIE: World Init took: (0.002175s)
+[2020.06.23-00.36.11:881][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TylerTest.TylerTest to /Game/Maps/UEDPIE_0_TylerTest.TylerTest (0.006377s)
+[2020.06.23-00.36.11:945][344]LogUObjectHash: Compacting FUObjectHashTables data took   6.81ms
+[2020.06.23-00.36.11:950][344]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.23-00.36.11:950][344]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.23-00.36.11:950][344]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.23-00.36.11:950][344]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.23-00.36.11:950][344]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.23-00.36.11:950][344]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.23-00.36.11:950][344]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.23-00.36.11:950][344]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.23-00.36.11:951][344]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.23-00.36.11:951][344]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.23-00.36.11:959][344]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.23-00.36.11:959][344]LogAudioMixer: Display: 1: FrontRight
+[2020.06.23-00.36.12:012][344]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.23-00.36.12:012][344]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.23-00.36.12:012][344]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.23-00.36.12:012][344]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.23-00.36.12:013][344]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.23-00.36.12:035][344]LogInit: FAudioDevice initialized.
+[2020.06.23-00.36.12:044][344]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.06.23-00.36.12:046][344]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TylerTest.TylerTest up for play (max tick rate 60) at 2020.06.22-17.36.12
+[2020.06.23-00.36.12:046][344]LogWorld: Bringing up level for play took: 0.000939
+[2020.06.23-00.36.12:046][344]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2020.06.23-00.36.12:051][344]PIE: Server logged in
+[2020.06.23-00.36.12:052][344]PIE: Play in editor total start time 0.181 seconds.
+[2020.06.23-00.36.19:444][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-00.36.19:444][735]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.23-00.36.19:444][735]LogWorld: UWorld::CleanupWorld for TylerTest, bSessionEnded=true, bCleanupResources=true
+[2020.06.23-00.36.19:444][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-00.36.19:454][735]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.23-00.36.19:462][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-00.36.19:542][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-00.36.19:543][735]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027E08EE3240), frame # 113735
+[2020.06.23-00.36.19:543][735]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E0BE51200), frame # 113735
+[2020.06.23-00.36.19:547][735]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2020.06.23-00.36.19:595][736]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2020.06.23-00.37.01:375][523]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.23-00.37.01:395][523]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.23-00.37.01:395][523]PIE: New page: PIE session: TylerTest (Jun 22, 2020, 10:37:01 AM)
+[2020.06.23-00.37.01:395][523]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.23-00.37.01:398][523]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003060s)
+[2020.06.23-00.37.01:400][523]LogAIModule: Creating AISystem for world TylerTest
+[2020.06.23-00.37.01:400][523]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E0C4EE600), frame # 115523
+[2020.06.23-00.37.01:400][523]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027E08EE2840), frame # 115523
+[2020.06.23-00.37.01:400][523]LogPlayLevel: PIE: World Init took: (0.001769s)
+[2020.06.23-00.37.01:400][523]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TylerTest.TylerTest to /Game/Maps/UEDPIE_0_TylerTest.TylerTest (0.005021s)
+[2020.06.23-00.37.01:449][523]LogUObjectHash: Compacting FUObjectHashTables data took   4.40ms
+[2020.06.23-00.37.01:454][523]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.23-00.37.01:454][523]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.23-00.37.01:454][523]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.23-00.37.01:454][523]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.23-00.37.01:454][523]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.23-00.37.01:454][523]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.23-00.37.01:454][523]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.23-00.37.01:454][523]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.23-00.37.01:455][523]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.23-00.37.01:455][523]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.23-00.37.01:462][523]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.23-00.37.01:462][523]LogAudioMixer: Display: 1: FrontRight
+[2020.06.23-00.37.01:523][523]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.23-00.37.01:523][523]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.23-00.37.01:523][523]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.23-00.37.01:523][523]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.23-00.37.01:524][523]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.23-00.37.01:525][523]LogInit: FAudioDevice initialized.
+[2020.06.23-00.37.01:539][523]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.06.23-00.37.01:541][523]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TylerTest.TylerTest up for play (max tick rate 60) at 2020.06.22-17.37.01
+[2020.06.23-00.37.01:541][523]LogWorld: Bringing up level for play took: 0.000969
+[2020.06.23-00.37.01:541][523]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2020.06.23-00.37.01:546][523]PIE: Server logged in
+[2020.06.23-00.37.01:546][523]PIE: Play in editor total start time 0.156 seconds.
+[2020.06.23-00.37.25:655][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-00.37.25:655][596]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.23-00.37.25:655][596]LogWorld: UWorld::CleanupWorld for TylerTest, bSessionEnded=true, bCleanupResources=true
+[2020.06.23-00.37.25:655][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-00.37.25:662][596]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.23-00.37.25:672][596]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-00.37.25:737][596]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-00.37.25:738][596]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027E08EE2840), frame # 116596
+[2020.06.23-00.37.25:738][596]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E0C4EE600), frame # 116596
+[2020.06.23-00.37.25:742][596]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2020.06.23-00.37.25:784][597]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2020.06.23-00.38.56:975][132]BlueprintLog: New page: Compile FPCChar
+[2020.06.23-00.38.57:107][132]LogUObjectHash: Compacting FUObjectHashTables data took   4.76ms
+[2020.06.23-00.38.58:093][161]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2020.06.23-00.39.00:439][218]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.23-00.39.00:461][218]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.23-00.39.00:461][218]PIE: New page: PIE session: TylerTest (Jun 22, 2020, 10:39:00 AM)
+[2020.06.23-00.39.00:462][218]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.23-00.39.00:465][218]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003539s)
+[2020.06.23-00.39.00:467][218]LogAIModule: Creating AISystem for world TylerTest
+[2020.06.23-00.39.00:467][218]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027DCEA37800), frame # 120218
+[2020.06.23-00.39.00:467][218]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027DBA698F40), frame # 120218
+[2020.06.23-00.39.00:467][218]LogPlayLevel: PIE: World Init took: (0.001784s)
+[2020.06.23-00.39.00:467][218]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TylerTest.TylerTest to /Game/Maps/UEDPIE_0_TylerTest.TylerTest (0.005563s)
+[2020.06.23-00.39.00:524][218]LogUObjectHash: Compacting FUObjectHashTables data took   6.98ms
+[2020.06.23-00.39.00:527][218]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.23-00.39.00:527][218]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.23-00.39.00:527][218]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.23-00.39.00:527][218]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.23-00.39.00:527][218]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.23-00.39.00:527][218]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.23-00.39.00:527][218]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.23-00.39.00:527][218]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.23-00.39.00:528][218]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.23-00.39.00:528][218]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.23-00.39.00:537][218]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.23-00.39.00:537][218]LogAudioMixer: Display: 1: FrontRight
+[2020.06.23-00.39.00:571][218]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.23-00.39.00:572][218]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.23-00.39.00:572][218]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.23-00.39.00:572][218]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.23-00.39.00:573][218]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.23-00.39.00:591][218]LogInit: FAudioDevice initialized.
+[2020.06.23-00.39.00:600][218]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.06.23-00.39.00:602][218]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TylerTest.TylerTest up for play (max tick rate 60) at 2020.06.22-17.39.00
+[2020.06.23-00.39.00:603][218]LogWorld: Bringing up level for play took: 0.000879
+[2020.06.23-00.39.00:603][218]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2020.06.23-00.39.00:608][218]PIE: Server logged in
+[2020.06.23-00.39.00:609][218]PIE: Play in editor total start time 0.151 seconds.
+[2020.06.23-00.39.07:023][508]LogCharacterMovement: FPCChar_C_0 is stuck and failed to move! Velocity: X=530.93 Y=261.65 Z=0.00 Location: X=-546.28 Y=-334.19 Z=116.14 Normal: X=-0.95 Y=-0.27 Z=-0.13 PenetrationDepth:21.155 Actor:BP_Arrow_C_0 Component:ArrowMesh BoneName:None (0 other events since notify)
+[2020.06.23-00.39.08:290][581]LogCharacterMovement: FPCChar_C_0 is stuck and failed to move! Velocity: X=367.97 Y=108.45 Z=0.00 Location: X=-1133.03 Y=-514.11 Z=116.02 Normal: X=-0.96 Y=-0.29 Z=-0.06 PenetrationDepth:1.618 Actor:BP_Arrow_C_0 Component:ArrowMesh BoneName:None (24 other events since notify)
+[2020.06.23-00.39.09:331][638]LogCharacterMovement: FPCChar_C_0 is stuck and failed to move! Velocity: X=66.16 Y=21.74 Z=0.00 Location: X=-1473.55 Y=-627.27 Z=116.03 Normal: X=-0.95 Y=-0.30 Z=-0.07 PenetrationDepth:36.839 Actor:BP_Arrow_C_0 Component:ArrowMesh BoneName:None (12 other events since notify)
+[2020.06.23-00.39.11:595][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-00.39.11:595][768]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.23-00.39.11:596][768]LogWorld: UWorld::CleanupWorld for TylerTest, bSessionEnded=true, bCleanupResources=true
+[2020.06.23-00.39.11:596][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-00.39.11:607][768]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.23-00.39.11:615][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-00.39.11:686][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-00.39.11:687][768]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027DBA698F40), frame # 120768
+[2020.06.23-00.39.11:687][768]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027DCEA37800), frame # 120768
+[2020.06.23-00.39.11:692][768]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2020.06.23-00.39.11:731][769]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2020.06.23-00.39.15:325][925]LogTemp: Repeating last play command: Selected Viewport
+[2020.06.23-00.39.15:348][925]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.06.23-00.39.15:348][925]PIE: New page: PIE session: TylerTest (Jun 22, 2020, 10:39:15 AM)
+[2020.06.23-00.39.15:348][925]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.23-00.39.15:351][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002919s)
+[2020.06.23-00.39.15:352][925]LogAIModule: Creating AISystem for world TylerTest
+[2020.06.23-00.39.15:352][925]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027E1290DA00), frame # 120925
+[2020.06.23-00.39.15:353][925]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027DAA4BDD00), frame # 120925
+[2020.06.23-00.39.15:353][925]LogPlayLevel: PIE: World Init took: (0.001955s)
+[2020.06.23-00.39.15:353][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TylerTest.TylerTest to /Game/Maps/UEDPIE_0_TylerTest.TylerTest (0.005054s)
+[2020.06.23-00.39.15:405][925]LogUObjectHash: Compacting FUObjectHashTables data took   5.09ms
+[2020.06.23-00.39.15:407][925]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.23-00.39.15:407][925]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.23-00.39.15:407][925]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.23-00.39.15:407][925]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.23-00.39.15:407][925]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.23-00.39.15:407][925]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.23-00.39.15:407][925]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.23-00.39.15:407][925]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.23-00.39.15:408][925]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.23-00.39.15:408][925]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.23-00.39.15:416][925]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.23-00.39.15:416][925]LogAudioMixer: Display: 1: FrontRight
+[2020.06.23-00.39.15:449][925]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.06.23-00.39.15:449][925]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.06.23-00.39.15:449][925]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.06.23-00.39.15:449][925]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.06.23-00.39.15:449][925]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.06.23-00.39.15:465][925]LogInit: FAudioDevice initialized.
+[2020.06.23-00.39.15:476][925]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2020.06.23-00.39.15:477][925]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TylerTest.TylerTest up for play (max tick rate 60) at 2020.06.22-17.39.15
+[2020.06.23-00.39.15:477][925]LogWorld: Bringing up level for play took: 0.000613
+[2020.06.23-00.39.15:477][925]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2020.06.23-00.39.15:483][925]PIE: Server logged in
+[2020.06.23-00.39.15:483][925]PIE: Play in editor total start time 0.14 seconds.
+[2020.06.23-00.39.17:908][ 65]LogCharacterMovement: FPCChar_C_0 is stuck and failed to move! Velocity: X=30.78 Y=14.75 Z=0.00 Location: X=-11.34 Y=-5.43 Z=116.17 Normal: X=-0.89 Y=-0.43 Z=-0.17 PenetrationDepth:23.192 Actor:BP_Arrow_C_0 Component:ArrowMesh BoneName:None (0 other events since notify)
+[2020.06.23-00.39.18:938][126]LogCharacterMovement: FPCChar_C_0 is stuck and failed to move! Velocity: X=361.38 Y=120.83 Z=0.00 Location: X=-13.91 Y=-1.83 Z=116.05 Normal: X=-0.98 Y=-0.15 Z=-0.08 PenetrationDepth:36.725 Actor:BP_Arrow_C_0 Component:ArrowMesh BoneName:None (13 other events since notify)
+[2020.06.23-00.39.26:893][599]LogCharacterMovement: FPCChar_C_0 is stuck and failed to move! Velocity: X=102.81 Y=-91.56 Z=0.00 Location: X=748.96 Y=-1267.11 Z=116.04 Normal: X=-0.79 Y=0.61 Z=-0.05 PenetrationDepth:37.038 Actor:BP_Arrow_C_0 Component:ArrowMesh BoneName:None (27 other events since notify)
+[2020.06.23-00.39.28:124][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-00.39.28:125][670]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TylerTest
+[2020.06.23-00.39.28:125][670]LogWorld: UWorld::CleanupWorld for TylerTest, bSessionEnded=true, bCleanupResources=true
+[2020.06.23-00.39.28:125][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-00.39.28:137][670]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.06.23-00.39.28:144][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.23-00.39.28:194][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.23-00.39.28:220][670]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027DAA4BDD00), frame # 121670
+[2020.06.23-00.39.28:220][670]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027E1290DA00), frame # 121670
+[2020.06.23-00.39.28:226][670]LogUObjectHash: Compacting FUObjectHashTables data took   5.85ms
+[2020.06.23-00.39.28:267][671]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.06.23-00.40.20:755][863]BlueprintLog: New page: Compile FPCChar
+[2020.06.23-00.40.20:898][863]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2020.06.23-00.40.29:008][107]LogRHI: Error: Present Fail Count 1
+[2020.06.23-00.40.29:008][107]LogRHI: Error: SyncInterval 0
+[2020.06.23-00.40.29:008][107]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1938
+[2020.06.23-00.40.29:008][107]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1098
+[2020.06.23-00.40.29:008][107]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2020.06.23-00.40.29:008][107]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2020.06.23-00.40.29:008][107]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2020.06.23-00.40.29:008][107]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2020.06.23-00.40.29:008][107]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2020.06.23-00.40.29:008][107]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2020.06.23-00.40.29:008][107]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2020.06.23-00.40.29:008][107]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2020.06.23-00.40.29:008][107]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2020.06.23-00.40.29:008][107]LogRHI: Error: SwapChainDesc.OutputWindow 0000000000250260
+[2020.06.23-00.40.29:008][107]LogRHI: Error: SwapChainDesc.Windowed true
+[2020.06.23-00.40.29:008][107]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2020.06.23-00.40.29:008][107]LogRHI: Error: SwapChainDesc.Flags 2050
+[2020.06.23-00.40.34:148][156]LogRHI: Error: Present Fail Count 1
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SyncInterval 0
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1938
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1098
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.OutputWindow 0000000000250260
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.Windowed true
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.Flags 2050
+[2020.06.23-00.40.34:149][156]LogRHI: Error: Present Fail Count 1
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SyncInterval 0
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.BufferDesc.Width 200
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.BufferDesc.Height 203
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.OutputWindow 00000000045806AA
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.Windowed true
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2020.06.23-00.40.34:149][156]LogRHI: Error: SwapChainDesc.Flags 2050
+[2020.06.23-00.40.34:300][160]LogRHI: Error: Present Fail Count 2
+[2020.06.23-00.40.34:300][160]LogRHI: Error: SyncInterval 0
+[2020.06.23-00.40.34:300][160]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1938
+[2020.06.23-00.40.34:300][160]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1098
+[2020.06.23-00.40.34:300][160]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2020.06.23-00.40.34:300][160]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2020.06.23-00.40.34:300][160]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2020.06.23-00.40.34:300][160]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2020.06.23-00.40.34:300][160]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2020.06.23-00.40.34:300][160]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2020.06.23-00.40.34:300][160]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2020.06.23-00.40.34:300][160]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2020.06.23-00.40.34:300][160]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2020.06.23-00.40.34:300][160]LogRHI: Error: SwapChainDesc.OutputWindow 0000000000250260
+[2020.06.23-00.40.34:300][160]LogRHI: Error: SwapChainDesc.Windowed true
+[2020.06.23-00.40.34:300][160]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2020.06.23-00.40.34:300][160]LogRHI: Error: SwapChainDesc.Flags 2050
+[2020.06.23-00.40.34:451][163]LogRHI: Error: Present Fail Count 3
+[2020.06.23-00.40.34:451][163]LogRHI: Error: SyncInterval 0
+[2020.06.23-00.40.34:451][163]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1938
+[2020.06.23-00.40.34:451][163]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1098
+[2020.06.23-00.40.34:451][163]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2020.06.23-00.40.34:451][163]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2020.06.23-00.40.34:451][163]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2020.06.23-00.40.34:451][163]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2020.06.23-00.40.34:451][163]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2020.06.23-00.40.34:451][163]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2020.06.23-00.40.34:451][163]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2020.06.23-00.40.34:451][163]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2020.06.23-00.40.34:451][163]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2020.06.23-00.40.34:451][163]LogRHI: Error: SwapChainDesc.OutputWindow 0000000000250260
+[2020.06.23-00.40.34:451][163]LogRHI: Error: SwapChainDesc.Windowed true
+[2020.06.23-00.40.34:451][163]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2020.06.23-00.40.34:451][163]LogRHI: Error: SwapChainDesc.Flags 2050
+[2020.06.23-00.40.34:516][166]LogRHI: Error: Present Fail Count 4
+[2020.06.23-00.40.34:516][166]LogRHI: Error: SyncInterval 0
+[2020.06.23-00.40.34:516][166]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1938
+[2020.06.23-00.40.34:516][166]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1098
+[2020.06.23-00.40.34:516][166]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2020.06.23-00.40.34:516][166]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2020.06.23-00.40.34:516][166]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2020.06.23-00.40.34:516][166]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2020.06.23-00.40.34:516][166]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2020.06.23-00.40.34:516][166]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2020.06.23-00.40.34:516][166]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2020.06.23-00.40.34:516][166]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2020.06.23-00.40.34:516][166]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2020.06.23-00.40.34:516][166]LogRHI: Error: SwapChainDesc.OutputWindow 0000000000250260
+[2020.06.23-00.40.34:516][166]LogRHI: Error: SwapChainDesc.Windowed true
+[2020.06.23-00.40.34:516][166]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2020.06.23-00.40.34:516][166]LogRHI: Error: SwapChainDesc.Flags 2050
+[2020.06.23-00.40.34:648][169]LogRHI: Error: Present Fail Count 5
+[2020.06.23-00.40.34:648][169]LogRHI: Error: SyncInterval 0
+[2020.06.23-00.40.34:648][169]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1938
+[2020.06.23-00.40.34:648][169]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1098
+[2020.06.23-00.40.34:648][169]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2020.06.23-00.40.34:648][169]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2020.06.23-00.40.34:648][169]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2020.06.23-00.40.34:648][169]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2020.06.23-00.40.34:648][169]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2020.06.23-00.40.34:648][169]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2020.06.23-00.40.34:648][169]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2020.06.23-00.40.34:648][169]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2020.06.23-00.40.34:648][169]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2020.06.23-00.40.34:648][169]LogRHI: Error: SwapChainDesc.OutputWindow 0000000000250260
+[2020.06.23-00.40.34:648][169]LogRHI: Error: SwapChainDesc.Windowed true
+[2020.06.23-00.40.34:648][169]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2020.06.23-00.40.34:648][169]LogRHI: Error: SwapChainDesc.Flags 2050
+[2020.06.23-00.40.34:698][172]LogRHI: Error: Present Fail Count 6
+[2020.06.23-00.40.34:698][172]LogRHI: Error: SyncInterval 0
+[2020.06.23-00.40.34:698][172]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1938
+[2020.06.23-00.40.34:698][172]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1098
+[2020.06.23-00.40.34:698][172]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2020.06.23-00.40.34:698][172]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2020.06.23-00.40.34:698][172]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2020.06.23-00.40.34:698][172]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2020.06.23-00.40.34:698][172]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2020.06.23-00.40.34:698][172]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2020.06.23-00.40.34:698][172]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2020.06.23-00.40.34:698][172]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2020.06.23-00.40.34:698][172]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2020.06.23-00.40.34:698][172]LogRHI: Error: SwapChainDesc.OutputWindow 0000000000250260
+[2020.06.23-00.40.34:699][172]LogRHI: Error: SwapChainDesc.Windowed true
+[2020.06.23-00.40.34:699][172]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2020.06.23-00.40.34:699][172]LogRHI: Error: SwapChainDesc.Flags 2050
+[2020.06.23-00.40.34:749][175]LogRHI: Error: Present Fail Count 7
+[2020.06.23-00.40.34:749][175]LogRHI: Error: SyncInterval 0
+[2020.06.23-00.40.34:749][175]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1938
+[2020.06.23-00.40.34:749][175]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1098
+[2020.06.23-00.40.34:749][175]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2020.06.23-00.40.34:749][175]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2020.06.23-00.40.34:749][175]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2020.06.23-00.40.34:749][175]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2020.06.23-00.40.34:749][175]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2020.06.23-00.40.34:749][175]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2020.06.23-00.40.34:749][175]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2020.06.23-00.40.34:749][175]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2020.06.23-00.40.34:749][175]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2020.06.23-00.40.34:749][175]LogRHI: Error: SwapChainDesc.OutputWindow 0000000000250260
+[2020.06.23-00.40.34:749][175]LogRHI: Error: SwapChainDesc.Windowed true
+[2020.06.23-00.40.34:749][175]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2020.06.23-00.40.34:750][175]LogRHI: Error: SwapChainDesc.Flags 2050
+[2020.06.23-00.40.34:800][178]LogRHI: Error: Present Fail Count 8
+[2020.06.23-00.40.34:800][178]LogRHI: Error: SyncInterval 0
+[2020.06.23-00.40.34:800][178]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1938
+[2020.06.23-00.40.34:800][178]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1098
+[2020.06.23-00.40.34:800][178]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2020.06.23-00.40.34:800][178]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2020.06.23-00.40.34:800][178]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2020.06.23-00.40.34:800][178]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2020.06.23-00.40.34:800][178]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2020.06.23-00.40.34:800][178]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2020.06.23-00.40.34:800][178]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2020.06.23-00.40.34:800][178]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2020.06.23-00.40.34:800][178]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2020.06.23-00.40.34:800][178]LogRHI: Error: SwapChainDesc.OutputWindow 0000000000250260
+[2020.06.23-00.40.34:800][178]LogRHI: Error: SwapChainDesc.Windowed true
+[2020.06.23-00.40.34:800][178]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2020.06.23-00.40.34:800][178]LogRHI: Error: SwapChainDesc.Flags 2050
+[2020.06.23-00.40.34:849][181]LogRHI: Error: Present Fail Count 9
+[2020.06.23-00.40.34:849][181]LogRHI: Error: SyncInterval 0
+[2020.06.23-00.40.34:849][181]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1938
+[2020.06.23-00.40.34:849][181]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1098
+[2020.06.23-00.40.34:849][181]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2020.06.23-00.40.34:849][181]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2020.06.23-00.40.34:849][181]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2020.06.23-00.40.34:849][181]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2020.06.23-00.40.34:849][181]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2020.06.23-00.40.34:849][181]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2020.06.23-00.40.34:849][181]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2020.06.23-00.40.34:849][181]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2020.06.23-00.40.34:849][181]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2020.06.23-00.40.34:849][181]LogRHI: Error: SwapChainDesc.OutputWindow 0000000000250260
+[2020.06.23-00.40.34:849][181]LogRHI: Error: SwapChainDesc.Windowed true
+[2020.06.23-00.40.34:849][181]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2020.06.23-00.40.34:849][181]LogRHI: Error: SwapChainDesc.Flags 2050
+[2020.06.23-00.40.34:902][184]LogRHI: Error: Present Fail Count 10
+[2020.06.23-00.40.34:902][184]LogRHI: Error: SyncInterval 0
+[2020.06.23-00.40.34:902][184]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1938
+[2020.06.23-00.40.34:902][184]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1098
+[2020.06.23-00.40.34:902][184]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2020.06.23-00.40.34:903][184]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2020.06.23-00.40.34:903][184]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2020.06.23-00.40.34:903][184]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2020.06.23-00.40.34:903][184]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2020.06.23-00.40.34:903][184]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2020.06.23-00.40.34:903][184]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2020.06.23-00.40.34:903][184]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2020.06.23-00.40.34:903][184]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2020.06.23-00.40.34:903][184]LogRHI: Error: SwapChainDesc.OutputWindow 0000000000250260
+[2020.06.23-00.40.34:903][184]LogRHI: Error: SwapChainDesc.Windowed true
+[2020.06.23-00.40.34:903][184]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2020.06.23-00.40.34:903][184]LogRHI: Error: SwapChainDesc.Flags 2050
+[2020.06.23-00.40.34:943][187]LogRHI: Error: Present Fail Count 11
+[2020.06.23-00.40.34:943][187]LogRHI: Error: SyncInterval 0
+[2020.06.23-00.40.34:943][187]LogRHI: Error: SwapChainDesc.BufferDesc.Width 1938
+[2020.06.23-00.40.34:943][187]LogRHI: Error: SwapChainDesc.BufferDesc.Height 1098
+[2020.06.23-00.40.34:943][187]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Numerator 0
+[2020.06.23-00.40.34:943][187]LogRHI: Error: SwapChainDesc.BufferDesc.RefreshRate.Denominator 0
+[2020.06.23-00.40.34:943][187]LogRHI: Error: SwapChainDesc.BufferDesc.Format 24
+[2020.06.23-00.40.34:943][187]LogRHI: Error: SwapChainDesc.BufferDesc.ScanlineOrdering 0
+[2020.06.23-00.40.34:943][187]LogRHI: Error: SwapChainDesc.BufferDesc.Scaling 0
+[2020.06.23-00.40.34:943][187]LogRHI: Error: SwapChainDesc.SampleDesc.Count 1
+[2020.06.23-00.40.34:943][187]LogRHI: Error: SwapChainDesc.SampleDesc.Quality 0
+[2020.06.23-00.40.34:943][187]LogRHI: Error: SwapChainDesc.BufferUsage 48
+[2020.06.23-00.40.34:943][187]LogRHI: Error: SwapChainDesc.BufferCount 2
+[2020.06.23-00.40.34:943][187]LogRHI: Error: SwapChainDesc.OutputWindow 0000000000250260
+[2020.06.23-00.40.34:943][187]LogRHI: Error: SwapChainDesc.Windowed true
+[2020.06.23-00.40.34:944][187]LogRHI: Error: SwapChainDesc.SwapEffect 4
+[2020.06.23-00.40.34:944][187]LogRHI: Error: SwapChainDesc.Flags 2050
+[2020.06.23-00.40.34:944][187]LogD3D11RHI: Error: Result failed 
+ at D:/Build/++UE4+Licensee/Sync/Engine/Source/Runtime/Windows/D3D11RHI/Private/D3D11Viewport.cpp:388 
+ with error DXGI_ERROR_DEVICE_REMOVED 00000000
+[2020.06.23-00.40.34:944][187]LogD3D11RHI: [Aftermath] GDynamicRHI=0000027D771000C0, GDX11NVAfterMathEnabled=1, Result=0x00000001, bDeviceActive=1
+[2020.06.23-00.40.34:944][187]LogWindows: Windows GetLastError: The operation completed successfully. (0)
